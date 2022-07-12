@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+:root {
+    --fundo: rgb(240, 212, 212);
+    --laranja-claro: #F2811D;
+    --laranja-escuro: #E35B49;
+    --vermelho: #d3130f;
+    --amarelo: #F1C570; 
+    --cinza: #8C8C8C;
+    --background: rgb(248, 248, 248);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    background-color: var(--background);
+    font-family: "Poppins",sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 60px 5px 60px;
+  background-color: var(--laranja-claro);
+      /*Menu fixo*/
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 99; /*não passa itens em cima do menu*/
+  }
+
+
+.inicio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 50px;
+  color: var(--amarelo);
+  font-family: 'Alex Brush', cursive;
+}
+
+.emote {
+  border-radius: 50%;
+  border: 2px solid var(--amarelo);
+}
+
+.menu-item {
+  font-size: 16px;
+  color: var(--background);
+  margin-right: 20px;
+}
+
+.menu-item:hover {
+  color: var(--amarelo);
+}
+
+.avatar {
+    width: 500px;
+}
+
+.descricao {
+  margin-top: 72px;
+  padding-top: 50px;
+  border-top: 5px solid var(--amarelo);
+  border-bottom: 5px solid var(--amarelo);
+}
+
+.descricao-principal {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.descricao-principal-itens {
+  margin: 30px 30px 30px 380px;
+
+  text-align: center;
+  color: var(--cinza);
+  max-width: 700px;
+  align-items: center;
+}
+
+.descricao-principal-itens h1 {
+  color: var(--laranja-claro);
+  font-size: 50px;
+  font-family: 'Alex Brush', cursive;
+}
+
+/*INÍCIO BOTÃO ME ADICIONE*/
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-7 {
+  background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-7 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-7:before,
+  .btn-7:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: rgba(251,75,2,1);
+    box-shadow:
+     -7px -7px 20px 0px rgba(255,255,255,.9),
+     -4px -4px 5px 0px rgba(255,255,255,.9),
+     7px 7px 20px 0px rgba(0,0,0,.2),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+  }
+  .btn-7:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-7:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-7:hover{
+    color: rgba(251,75,2,1);
+    background: transparent;
+  }
+  .btn-7:hover:before {
+    height: 100%;
+  }
+  .btn-7:hover:after {
+    width: 100%;
+  }
+  .btn-7 span:before,
+  .btn-7 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: rgba(251,75,2,1);
+    box-shadow:
+     -7px -7px 20px 0px rgba(255,255,255,.9),
+     -4px -4px 5px 0px rgba(255,255,255,.9),
+     7px 7px 20px 0px rgba(0,0,0,.2),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+  }
+  .btn-7 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-7 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-7 span:hover:before {
+    height: 100%;
+  }
+  .btn-7 span:hover:after {
+    width: 100%;
+  }
+ /*FIM BOTÃO ME ADICIONE*/ 
+
+
+.posts-insta {
+  padding-top: 5em;
+}
+
+/*
+.posts-titulo {
+  color: var(--laranja-claro);
+  font-family: 'Alex Brush', cursive;
+  font-size: 4em;
+  margin-left: 5em;
+  padding-bottom: 0.5em;
+}
+*/
+
+.animacao{
+
+  color: var(--laranja-escuro);
+  font-size: 50px;
+  overflow: hidden;
+  text-align: center;
+}
+.frase{
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+.frase:first-of-type{
+  animation: appear 6s infinite;
+}
+.frase:last-of-type{
+  animation: reveal 6s infinite;
+}
+.frase:last-of-type span{
+  font-size: 50px;
+  color: var(--laranja-claro);
+  animation: slide 6s infinite;
+}
+@keyframes appear{
+  0%{opacity: 0;}
+  20%{opacity: 1;}
+  80%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@keyframes slide{
+  0%{margin-left:-800px;}
+  20%{margin-left:-800px;}
+  35%{margin-left:0px;}
+100%{margin-left:0px;}
+}
+@keyframes reveal{
+  0%{opacity: 0; width: 0px;}
+  20%{opacity: 1; width: 0px;}
+  30%{width: 450px;}
+  80%{opacity: 1;}
+  100%{opacity: 0; width: 450px;}
+}
+
+
+.posts-img {
+  position: relative;
+  display: flex;
+  justify-content:space-evenly;
+  margin: 0 10em 0 10em;
+
+}
+
+/* INÍCIO CARROSSEL*/
+
+.box {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+  cursor: pointer;
+}
+
+.box:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+
+.carrossel-titulo {
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.carrossel {
+  padding: 40px;
+}
+
+.carrossel:hover {
+  border: none;
+  transition: width 2s;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+/*FIM CARROSSEL*/
+
+/*INÍCIO MENU DE PERGUNTAS*/
+.dropdown {
+    padding: 60px 0 60px 0;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown h2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+  color: var(--laranja-claro);
+}
+
+.dropdown p, ol{
+    color: var(--laranja-claro);
+    text-align: justify;
+    padding: 5px 100px 5px 40px;
+}
+
+.duvida {
+    border-bottom: 2px solid var(--laranja-claro);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .duvida input, .duvida .resposta { 
+    display: none; 
+}
+  
+  .duvida label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%
+  }
+  
+  .duvida input:checked ~ .resposta {
+    display: block;
+    margin-left: 30px;
+  }
+
+  .resposta p {
+    text-align: center;
+    max-width: 900px;
+  }
+
+  .resposta a {
+    color: var(--cinza);
+  }
+
+  /*FIM MENU DE PERGUNTAS*/
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--laranja-claro);
+    color: var(--background);
+    padding: 50px;
+  }
+
+  footer a {
+    color: var(--amarelo);
+  }
+
+  footer a:hover {
+    color: var(--background);
+  }
+
+  footer .credito {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  footer .sociais {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /*EFEITO CORAÇÃO*/
+  footer .credito i:hover {
+    color: var(--vermelho);
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
+  /*FIM DO EFEITO CORAÇÃO*/
+
+
+
+  /*-----------------------------//// GALERIA //// --------------------------------------------*/
+
+  /*Copiei css do menu, para tirar o z-index e a visualização da imagem aberta ficar em cima do nav*/
+  .cabecalho-galeria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 60px 5px 60px;
+    background-color: var(--laranja-claro);
+        /*Menu fixo*/
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+  
+  .galeria {
+    padding: 100px;
+    background-color: #000;
+  }
+
+  .galeria-titulo {
+    font-family: "Poppins",sans-serif;
+    color: var(--amarelo);
+    text-align: center;
+    font-size: 3em;
+  }
+
+
+  ul{
+    width: 880px;
+    list-style:none;
+    display: flex;
+    margin: 70px auto;
+    padding-top: 100px;
+   }
+
+   .min{
+    width: 200px;
+    padding: 10px;
+    display: block;
+   }
+
+   .lbox{
+
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+   }
+
+   .lbox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(10,10,10,0.7);
+    position:fixed;
+   }
+
+   .box_img {
+    width: 1000px;
+    margin: 0px auto;
+   }
+
+   .btn{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+   }
+
+   #prev {
+    left: 5%;
+    top: 45%;
+   }
+
+   #next {
+    right: 5%;
+    top: 45%;
+   }
+
+   #close {
+    right: 2%;
+    top: 0;
+   }
+
+   .box_img img{
+    opacity: 0;
+   }
+
+   .lbox:target .box_img img{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 10px;
+    opacity: 1;
+    transition: opacity .4s linear;
+   }
