@@ -27,7 +27,7 @@ Outros:
 
 [Como criar uma galeria de imagens usando Grid, Css e Html | Prof. Luis Vulcanis](https://youtu.be/rcGfk0TtKa4)
 
-[Como fazer um SLIDESHOW com HTML e CSS | Além do Código](https://www.youtube.com/watch?v=zxqGOgsgUtk&list=LL&)index=2&t=22s
+[Como fazer um SLIDESHOW com HTML e CSS | Além do Código](https://www.youtube.com/watch?v=zxqGOgsgUtk&list=LL&)
 
 [Landing Page com HTML e CSS | Rafaella Ballerini](https://youtu.be/llF6vD-RljE)
 
