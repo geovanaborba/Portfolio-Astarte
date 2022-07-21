@@ -543,7 +543,7 @@ h1.white {
   }
 
   .galeria-titulo {
-    padding-top: 100px;
+    padding-top: 120px;
     font-family: "Poppins",sans-serif;
     color: var(--amarelo);
     text-align: center;
@@ -569,7 +569,7 @@ h1.white {
   .tipos-desenho {
     color: var(--background);
     font-size: 2em;
-    margin: 50px 0px 0px 400px;
+    margin: 200px 0px 0px 400px;
     }
 
 
@@ -580,20 +580,82 @@ h1.white {
 
     .galeria p {
     text-align: left;
-    padding-left: 450px;
+    padding: 30px 420px 0px 420px;
     font-size: 25px;
-    padding-top: 20px;
     color: var(--background);
   }
 
   .galeria h6 {
     color: var(--background);
-    padding: 30px 0px 0px 420px;
-    font-size: 16px;
+    padding: 30px 420px 0px 420px;
+    font-size: 18px;
+    text-align: justify;
+    font-style:normal;
+  }
+
+  .galeria .aviso-emotes {
+    color: var(--background);
+    text-align: center;
+    padding: 30px 420px 0px 420px;
+    font-size: 15px;
     font-style: italic;
   }
 
-/* CSS das imagens*/
+  .galeria .detalhes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 420px 40px 420px;
+  }
+
+  .detalhes h4 {
+    color: var(--laranja-claro);
+    text-align: center;
+  }
+
+  .galeria .div-emote {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .preco-emote p {
+    text-align: center;
+    padding: 30px 0px 0px 480px;
+    font-size: 20px;
+  }
+
+  .preco-chibi p {
+
+    text-align: center;
+    padding: 45px 450px 0px 0px;
+    font-size: 20px;
+  }
+
+
+  .preco-emote h2, .preco-chibi h2 {
+    background-color: var(--laranja-claro);
+    padding: 15px;
+    text-align: center;
+    width: 170px;
+  }
+
+  .preco-emote h2 {
+    margin-left: 550px;
+  }
+
+  .preco-chibi h2 {
+    margin-left: 80px;
+  }
+
+  #produtos i{
+    color: var(--background);
+  }
+
+
+/* CSS das imagens abertas*/
   ul{
     width: 880px;
     list-style:none;
@@ -661,7 +723,7 @@ h1.white {
 
    #close {
     right: 2%;
-    top: 0;
+    top: 2%;
    }
 
    .box_img img{
@@ -675,3 +737,32 @@ h1.white {
     opacity: 1;
     transition: opacity .4s linear;
    }
+
+   /*FIM CSS IMAGENS ABERTAS*/ 
+
+
+   /* BOTÃO JS VOLTAR AO TOPO */
+
+
+#voltar-ao-topo {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: var(--laranja-claro-fundo);
+  color: var(--vermelho);
+  border: none;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#voltar-ao-topo:hover {
+    background-color: var(--laranja-claro);
+    color: var(--background);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+   /*--------------------------- PAGAMENTO ---------------------------*/
+
+
