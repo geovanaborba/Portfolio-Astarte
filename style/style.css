@@ -763,6 +763,28 @@ h1.white {
 }
 
 
+.medidas {
+  margin: 70px auto;
+  width: 45%;
+}
+
+
+
    /*--------------------------- PAGAMENTO ---------------------------*/
 
 
+   .titulo-sobre {
+    padding-top: 200px;
+    text-align: center;
+   }
+
+   main .imagem {
+    color: var(--vermelho);
+    
+   }
+   
+
+  .detalhes {
+    padding: 150px 240px 100px 300px;
+
+}
