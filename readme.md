@@ -1,3 +1,10 @@
+# Portfolio - @astarte-drawings 
+
+O intuito dessa página foi testar meus conhecimentos. Realizei alguns cursos gratuitos até então, incluindo o Bootcamp Carrefour Web Developer pela Digital Innovation One e quis ver até onde conseguia chegar, fazendo sozinha. 
+
+Esse foi o resultado! Vez ou outra precisei fazer alguma consulta para algo mais específico, como o efeito de texto deslizante, por exemplo. Abaixo estão os links de tutoriais que pesquisei e/ou utilizei. 
+
+
 # Fontes
 
 font-family: 'Alex Brush', cursive;
@@ -58,3 +65,8 @@ font-family: "Poppins",sans-serif;
 # Botões 
 
 [Animation Buttons | by @Yuhomyan on Codepen](https://codepen.io/yuhomyan/pen/OJMejWJ)
+
+
+# Referência de código utilizada na página "Contato"
+
+[Repositório Contact-Page | @Patalin](https://github.com/Patalin/HTML-CSS-JS-Contact-Page)
