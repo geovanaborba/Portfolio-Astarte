@@ -770,21 +770,372 @@ h1.white {
 
 
 
-   /*--------------------------- PAGAMENTO ---------------------------*/
+   /*--------------------------- SOBRE ---------------------------*/
 
+  .descricao-sobre {
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    padding: 10px 240px 100px 300px;
+    background-color: var(--background);
+  }
 
    .titulo-sobre {
-    padding-top: 200px;
-    text-align: center;
+    padding: 200px 0px 60px 0px;
    }
-
-   main .imagem {
-    color: var(--vermelho);
-    
-   }
-   
 
   .detalhes {
+    color: var(--background);
+    background-color: #000;
     padding: 150px 240px 100px 300px;
-
 }
+
+  .detalhes-2 {
+    padding: 100px 240px 100px 300px;
+  }
+
+
+
+
+/*-------------------------- PAGAMENTO ----------------------------*/
+
+
+  .pagamento {
+    padding: 10px 240px 100px 300px;
+  }
+
+  .pagamento h1 {
+    padding: 200px 0px 60px 0px;
+  }
+
+  .pag-logos {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .pag-descricao {
+    background-color: var(--laranja-claro);
+    text-align: left;
+    padding: 120px 600px 170px 600px;
+  }
+
+  .pag-caderno {
+    background-color: var(--background);
+    padding: 50px;
+    border-radius: 2%;
+  }
+
+
+  /*---------------------------- PRAZOS ----------------------------------*/
+
+  .prazo-aviso {
+    padding: 200px 30% 215px 30%;
+  }
+
+  .prazo-aviso p {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+
+
+    /*---------------------------- TERMOS ----------------------------------*/
+
+
+    .termos {
+      max-width: 70vh;
+      display: block;
+      margin: 70px auto;
+      padding-top: 10em;
+      
+    }
+
+    .termos h3 {
+      padding-top: 40px;
+      text-align: justify;
+    }
+
+    .termos a {
+      color: var(--laranja-claro);
+    }
+
+    .termos li {
+      color: #000;
+      padding-top: 40px;
+    }
+
+    .termos img {
+      width: 20%;
+      margin-left: 250px;
+      padding-top: 40px;
+    }
+
+    .p-termos {
+      color: #000;
+    }
+
+    .leia-mais {
+      background-color: var(--laranja-escuro);
+      color: var(--background);
+      max-width: 70vh;
+      display: block;
+      margin: 70px auto;
+      padding: 70px;
+      font-size: 18px;
+      border-radius: 20px;
+    }
+
+    .leia-mais h4 {
+      font-size: 30px;
+    }
+
+    .leia-mais p {
+      color: var(--background);
+      line-height: 40px;
+    }
+
+    .leia-mais a:hover{
+      text-decoration: underline;
+      text-decoration-style: double;
+      text-decoration-color: var(--background);
+    }
+
+    .termos-tabela {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 50px;
+      font-size: 17px;
+      padding-top: 100px;
+      padding-bottom: 30px;
+      background-color: #000;
+      color: var(--background);
+    }
+
+    .termos-tabela h2 {
+      padding-bottom: 15px;
+    }
+
+    .faco p, .nao-faco p {
+      line-height: 35px;
+    }
+
+    .faco span {
+      color: green;
+    }
+
+    .nao-faco span {
+      color: var(--vermelho);
+    }
+
+    /*BOTÃO PARA GALERIA*/
+
+    .btn-div {
+      background-color: #000;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 100px;
+    }
+
+    .btn-termos {
+        width: 400px;
+        height: 60px;
+        font-size: 17px;
+        color: var(--background);
+        border-radius: 5px;
+        padding: 10px 25px;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+         box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+         7px 7px 20px 0px rgba(0,0,0,.1),
+         4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+        align-items: center;
+      }
+
+    .btn-14 {
+      background: rgb(255,151,0);
+      border: none;
+      z-index: 1;
+    }
+    .btn-14:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 5px;
+      background-color: #eaf818;
+      background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+       box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      transition: all 0.3s ease;
+    }
+
+    .btn-14:hover {
+      color: #000;
+    }
+
+    .btn-14:hover:after {
+      top: auto;
+      bottom: 0;
+      height: 100%;
+    }
+
+    .btn-14:active {
+      top: 2px;
+    }
+    
+    /* FIM BOTÃO TERMOS */ 
+
+
+    .termos-finais {
+      max-width: 70vh;
+      text-align: center;
+      margin: 40px auto;
+      padding: 100px 0 100px 0;
+    }
+
+    .termos-finais h3 {
+      color: var(--laranja-claro);
+      font-size: 30px;
+      padding-bottom: 30px;
+    }
+
+    .termos-finais img {
+      padding: 40px 5px 40px 5px;
+    }
+
+    .termos-finais a{
+      color: var(--laranja-claro);
+    }
+
+    .agradecimento {
+      font-family: 'Alex Brush', cursive;
+      color: var(--laranja-claro);
+      font-size: 6em;
+      padding-top: 50px;
+    }
+    /*---------------------- CONTATO --------------------------------*/
+
+
+  .contato {
+      margin-top: 120px;
+      background-color: var(--banner);
+      padding: 20px;
+    }
+  
+  .contato-titulo {
+    text-align: center;
+  }
+  
+  
+  .contato-descricao {
+      text-align: center;
+      font-size: 18px;
+      font-weight:300;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  
+
+  
+  .fotos {
+      font-size: 16px;
+      height:200px;
+      width: 200px;
+      border-radius: 50%;
+      padding: 10px;
+  }
+  
+  .formulario {
+      display: flex;
+      justify-content: center;
+  }
+
+
+  /* Início de formulário */ 
+
+
+  
+  form {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+  }
+
+  fieldset {
+    border: 0;
+  }
+
+  input, select, textarea, .btn-enviar {
+    border-radius: 5px;
+  }
+
+  label {
+    padding-top:1em;
+  }
+
+  .campo {
+    margin-bottom: 1em;
+    padding-bottom: 5px;
+  }
+
+  .campo label {
+    margin-bottom: 0.2em;
+    display: block;
+  }
+
+  fieldset .campo {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .campo input[type="text"], .campo select, .campo textarea {
+    padding: 0.4em;
+    border: 1px solid var(--laranja-escuro);
+    box-shadow: 2px 2px 2px var(--amarelo);
+    display: block;
+  }
+
+  .campo select option{
+    padding-right: 1em;
+
+  }
+
+  .campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: #fdebdb;
+  }
+
+  .btn-enviar {
+    font-size: 1.2em;
+    background: var(--laranja-claro);
+    border: 0;
+    margin-bottom: 1em;
+    color: var(--background);
+    padding: 0.2em 0.6em;
+    margin-left: 45px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    
+    transform: translate(-50%, -50%);
+  }
+
+  .btn-enviar:hover {
+  background: var(--laranja-escuro);
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+  }
+
+
+/*Fim do formulário */ 
