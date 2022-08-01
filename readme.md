@@ -1,8 +1,15 @@
 # Portfolio - @astarte-drawings 
 
-O intuito dessa página foi testar meus conhecimentos. Realizei alguns cursos gratuitos até então, incluindo o Bootcamp Carrefour Web Developer pela Digital Innovation One e quis ver até onde conseguia chegar, fazendo sozinha. 
+O intuito desse projeto foi testar meus conhecimentos. Realizei alguns cursos gratuitos até então, incluindo:
 
-Esse foi o resultado! Vez ou outra precisei fazer alguma consulta para algo mais específico, como o efeito de texto deslizante, por exemplo. Abaixo estão os links de tutoriais que pesquisei e/ou utilizei. 
+- Bootcamp Carrefour Web Developer pela Digital Innovation One 
+- Imersão Dev da Alura 
+- 2 eventos gratuitos da escola Dev Superior 
+- vídeo aulas gratuitas no youtube
+
+Quis ver até onde conseguia chegar fazendo sozinha e esse foi o resultado! 
+
+Vez ou outra precisei fazer alguma consulta para algo mais específico, como o efeito de texto deslizante, por exemplo. Abaixo estão os links de tutoriais que pesquisei e/ou utilizei. 
 
 
 # Fontes
