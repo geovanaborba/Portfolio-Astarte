@@ -75,7 +75,6 @@ body {
 }
 
 .descricao-principal {
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -84,7 +83,6 @@ body {
 
 .descricao-principal-itens {
   margin: 30px 30px 30px 380px;
-
   text-align: center;
   color: var(--cinza);
   max-width: 700px;
@@ -313,7 +311,7 @@ button {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
-  padding: 30px 0 30px 0;
+  padding: 30px 0 ;
 }
 
 p.gray {
@@ -323,33 +321,22 @@ p.gray {
 
 
 h2.black {
-  font-size: 30px;
+  padding-top: 40px;
+  font-size: 35px;
   line-height: 24px;
   color: #000;
 }
 h1.white {
-  font-size: 40px;
+  font-size: 45px;
   color: #fff;
+}
+
+.servicos {
+  padding-bottom: 80px;
 }
 
 .servicos img {
   border-radius: 30%;
-}
-
-.caixa {
-  margin: 20px auto;
-  width: 350px;
-  height: 350px;
-  display: block;
-  padding: 80px 0px 80px 0px;
-  background-color: var(--laranja-claro-fundo);
-  border-radius: 20%;
-}
-
-
-.caixa:hover {
-  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  cursor: pointer;
 }
 
 .servicos h3 {
@@ -359,6 +346,21 @@ h1.white {
   font-size: 20px;
   line-height: 30px;
   color: #070F18;
+}
+
+.caixa {
+  margin: 20px auto;
+  width: 350px;
+  height: 350px;
+  display: block;
+  padding: 80px 0px;
+  background-color: var(--laranja-claro-fundo);
+  border-radius: 20%;
+}
+
+.caixa:hover {
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  cursor: pointer;
 }
 
 
@@ -793,12 +795,26 @@ h1.white {
 
 
   .pagamento {
-    padding: 10px 240px 100px 300px;
+    padding: 150px 0px 100px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .pagamento h1 {
-    padding: 200px 0px 60px 0px;
+    padding: 50px 0px 60px 0px;
   }
+
+  .pagamento ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    list-style-image: url('../img/star-solid.svg');
+    line-height: 3rem;
+    font-size: 18px;
+  }
+
 
   .pag-logos {
     background-color: rgb(34, 34, 34);
@@ -807,28 +823,109 @@ h1.white {
     justify-content: space-evenly;
   }
 
-  .pag-descricao {
-    background-color: var(--laranja-claro);
-    text-align: left;
-    padding: 120px 600px 170px 600px;
+  /*---- EFEITO DE ONDA NO PAG-LOGOS ----*/
+
+  .custom-shape-divider-bottom-1659390890 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1659390890 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 110px;
+}
+
+.custom-shape-divider-bottom-1659390890 .shape-fill {
+    fill: rgb(34, 34, 34);
+}
+
+/*---- FIM DO EFEITO ONDA ----*/
+
+
+
+  .importante {
+    display: flex;
+    justify-content: space-around;
   }
 
-  .pag-caderno {
-    background-color: var(--background);
-    padding: 50px;
-    border-radius: 2%;
+  .importante-esquerda {
+    background-color: var(--laranja-escuro);
+    padding: 190px 0px;
   }
 
+  .importante-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 0em 8em;
+  }
+
+  .importante-direita h2 {
+    color: var(--laranja-escuro);
+    text-align: center;
+    font-size: 40px;
+    padding: 4em 0em 1.4em 0em;
+  }
+
+  .importante-direita p {
+    text-align: justify;
+    line-height: 50px;
+  }
+
+  .pag-tarifas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .tarifa-paypal p, .tarifa-pagseguro p {
+    line-height: 25px;
+    text-align: center;
+    color: var(--laranja-escuro);
+  }
+
+
+  .pag-detalhes {
+    padding: 140px 200px 80px 200px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 100px;
+    background-color: #222222;
+    color: var(--background);
+  }
+
+  .pag-detalhes p {
+    max-width: 400px;
+  }
+
+  .coluna-detalhes img {
+    width: 150px;
+    padding-top: 30px;
+    color: var(--vermelho);
+  }
 
   /*---------------------------- PRAZOS ----------------------------------*/
 
   .prazo-aviso {
-    padding: 200px 30% 215px 30%;
+    padding: 200px 25% 150px 25%;
+    text-align: center;
   }
 
   .prazo-aviso p {
-    text-align: center;
     padding-top: 40px;
+  }
+
+  .prazo-aviso img {
+    width: 80%;
   }
 
 
@@ -894,6 +991,34 @@ h1.white {
       text-decoration-color: var(--background);
     }
 
+    /* EFEITO ONDA */
+
+    .custom-shape-divider-bottom-1659403427 {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1659403427 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 150px;
+  }
+  
+  .custom-shape-divider-bottom-1659403427 .shape-fill {
+      fill: #222222;
+  }
+
+    /* FIM EFEITO ONDA*/
+
+
+
+
     .termos-tabela {
       display: flex;
       flex-direction: row;
@@ -902,7 +1027,7 @@ h1.white {
       font-size: 17px;
       padding-top: 100px;
       padding-bottom: 30px;
-      background-color: #000;
+      background-color: #222222;
       color: var(--background);
     }
 
@@ -925,7 +1050,7 @@ h1.white {
     /*BOTÃO PARA GALERIA*/
 
     .btn-div {
-      background-color: #000;
+      background-color: #222222;
       display: flex;
       flex-direction: row;
       justify-content: center;

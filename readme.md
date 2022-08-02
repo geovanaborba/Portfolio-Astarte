@@ -77,3 +77,18 @@ font-family: "Poppins",sans-serif;
 # Referência de código utilizada na página "Contato"
 
 [Repositório Contact-Page | @Patalin](https://github.com/Patalin/HTML-CSS-JS-Contact-Page)
+
+
+# Gerador de efeito CSS utilizado: 
+
+[Shape Divider](https://www.shapedivider.app/)
+*Efeito de onda com CSS.*
+
+# Site com ilustrações/doodles:
+
+- [unDraw](undraw.co)
+- Demais ilustrações, foram feitas por mim mesma - [@astarte.drawings](https://linktr.ee/astarte.drawings)
+
+
+
+
