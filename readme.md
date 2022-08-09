@@ -1,16 +1,21 @@
 # Portfolio - @astarte-drawings 
 
-O intuito desse projeto foi testar meus conhecimentos. Realizei alguns cursos gratuitos até então, incluindo:
+## O intuito desse projeto foi testar meus conhecimentos com base nos cursos gratuitos que fiz até então. <br> Quis ver até onde conseguia chegar fazendo sozinha e esse foi o resultado!  
+
+*Pequei um pouco em questão de responsividade, mas pretendo atualizar e melhorar isso mais para frente.* 
+
+*No momento, fiz esse projeto com base no meu monitor com **resolução de 1920x1080** e deixei o nav e o footer responsivos com @media max-width: 1366px e 650px;*
+
+
+### Cursos gratuitos realizados:
 
 - Bootcamp Carrefour Web Developer pela Digital Innovation One 
 - Imersão Dev da Alura 
 - 2 eventos gratuitos da escola Dev Superior 
 - vídeo aulas gratuitas no youtube
 
-Quis ver até onde conseguia chegar fazendo sozinha e esse foi o resultado! 
 
 Vez ou outra precisei fazer alguma consulta para algo mais específico, como o efeito de texto deslizante, por exemplo. Abaixo estão os links de tutoriais que pesquisei e/ou utilizei. 
-
 
 # Fontes
 
