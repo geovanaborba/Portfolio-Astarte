@@ -825,8 +825,15 @@ h1.white {
   .sobre-detalhes-img {
     display: flex;
     justify-content: center;
-
+    gap: 20px;
+    padding-top: 100px;
   }
+
+  .sobre-detalhe-img1:hover, .sobre-detalhe-img2:hover, .sobre-detalhe-img3:hover, .sobre-detalhe-img4:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+
 
   .detalhes-resumo {
     padding: 150px 0px;
@@ -844,6 +851,7 @@ h1.white {
     flex-direction: column;
     justify-content: center;
     max-width: 50%;
+    font-size: 18px;
   }
 
   .bloco-resumo h2 {
@@ -1208,8 +1216,12 @@ h1.white {
       padding-bottom: 30px;
     }
 
+    .termos-finais p {
+      padding-bottom: 30px;
+    }
+
     .termos-finais img {
-      padding: 40px 5px 40px 5px;
+      padding: 10px 5px 40px 5px;
     }
 
     .termos-finais a{
