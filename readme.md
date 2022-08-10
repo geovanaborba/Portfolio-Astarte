@@ -89,6 +89,13 @@ font-family: "Poppins",sans-serif;
 [Repositório Contact-Page | @Patalin](https://github.com/Patalin/HTML-CSS-JS-Contact-Page)
 
 
+# Envio de formulário para email
+
+[Formspree](https://formspree.io/)
+
+*Utilizei o site Formspree para envio dos formulários da aba Contato, diretamente para meu e-mail. Basta definir o formulário **action** no html para o endpoint. Nenhum código de servidor é necessário.*
+
+
 # Gerador de efeito CSS utilizado: 
 
 [Shape Divider](https://www.shapedivider.app/)
