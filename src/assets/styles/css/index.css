@@ -1,0 +1,413 @@
+.avatar {
+  width: 500px;
+}
+
+.descricao {
+  margin-top: 72px;
+  padding-top: 50px;
+  border-top: 5px solid var(--amarelo);
+  border-bottom: 5px solid var(--amarelo);
+}
+
+.descricao-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.descricao-principal-itens {
+  margin: 30px 30px 30px 380px;
+  text-align: center;
+  color: var(--cinza);
+  max-width: 700px;
+  align-items: center;
+}
+
+.descricao-principal-itens h1 {
+  color: var(--laranja-claro);
+  font-size: 50px;
+  font-family: 'Alex Brush', cursive;
+}
+
+/*INÍCIO BOTÃO ME ADICIONE*/
+button {
+  margin: 20px;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
+
+.btn-7 {
+  background: linear-gradient(0deg, rgba(255, 151, 0, 1) 0%, rgba(251, 75, 2, 1) 100%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow:
+    -7px -7px 20px 0px rgba(255, 255, 255, .9),
+    -4px -4px 5px 0px rgba(255, 255, 255, .9),
+    7px 7px 20px 0px rgba(0, 0, 0, .2),
+    4px 4px 5px 0px rgba(0, 0, 0, .3);
+  transition: all 0.3s ease;
+}
+
+.btn-7:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+
+.btn-7:hover {
+  color: rgba(251, 75, 2, 1);
+  background: transparent;
+}
+
+.btn-7:hover:before {
+  height: 100%;
+}
+
+.btn-7:hover:after {
+  width: 100%;
+}
+
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow:
+    -7px -7px 20px 0px rgba(255, 255, 255, .9),
+    -4px -4px 5px 0px rgba(255, 255, 255, .9),
+    7px 7px 20px 0px rgba(0, 0, 0, .2),
+    4px 4px 5px 0px rgba(0, 0, 0, .3);
+  transition: all 0.3s ease;
+}
+
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+
+.btn-7 span:hover:before {
+  height: 100%;
+}
+
+.btn-7 span:hover:after {
+  width: 100%;
+}
+
+/*FIM BOTÃO ME ADICIONE*/
+
+
+/* POSTS INSTAGRAM*/
+
+.posts-insta {
+  padding-top: 4em;
+}
+
+.animacao {
+
+  color: var(--laranja-escuro);
+  font-size: 70px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.frase {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.frase:first-of-type {
+  animation: appear 6s infinite;
+}
+
+.frase:last-of-type {
+  animation: reveal 6s infinite;
+}
+
+.frase:last-of-type span {
+  font-size: 50px;
+  color: var(--laranja-claro);
+  animation: slide 6s infinite;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    margin-left: -800px;
+  }
+
+  20% {
+    margin-left: -800px;
+  }
+
+  35% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+
+  30% {
+    width: 450px;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    width: 450px;
+  }
+}
+
+.posts-img {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 10em 0 10em;
+
+}
+
+/*INÍCIO MENU DE PERGUNTAS*/
+.dropdown {
+  padding: 60px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdown h2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+  color: var(--laranja-claro);
+}
+
+.dropdown p,
+ol {
+  color: var(--laranja-claro);
+  text-align: justify;
+  padding: 5px 100px 5px 40px;
+}
+
+.duvida {
+  border-bottom: 2px solid var(--laranja-claro);
+  padding: 15px 0;
+  text-align: center;
+}
+
+.duvida input,
+.duvida .resposta {
+  display: none;
+}
+
+.duvida label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%
+}
+
+.duvida label:hover {
+  cursor: pointer;
+}
+
+.duvida input:checked~.resposta {
+  display: block;
+  margin-left: 30px;
+}
+
+.resposta p {
+  text-align: center;
+  max-width: 900px;
+}
+
+.resposta a {
+  color: var(--cinza);
+}
+
+/*FIM MENU DE PERGUNTAS*/
+
+
+
+.divisoria {
+  background-color: var(--laranja-claro);
+  text-align: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  padding: 30px 0;
+}
+
+p.gray {
+  font-size: 16px;
+  color: #575455;
+}
+
+
+h2.black {
+  padding-top: 40px;
+  font-size: 35px;
+  line-height: 24px;
+  color: #000;
+}
+
+h1.white {
+  font-size: 45px;
+  color: #fff;
+}
+
+.servicos {
+  padding-bottom: 80px;
+}
+
+.servicos img {
+  border-radius: 30%;
+}
+
+.servicos h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #070F18;
+}
+
+.caixa {
+  margin: 20px auto;
+  width: 350px;
+  height: 350px;
+  display: block;
+  padding: 80px 0px;
+  background-color: var(--laranja-claro-fundo);
+  border-radius: 20%;
+}
+
+.caixa:hover {
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  cursor: pointer;
+}
+
+
+
+/* INÍCIO CARROSSEL*/
+
+.box {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+  cursor: pointer;
+}
+
+.box:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.carrossel-titulo {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.carrossel-titulo2 {
+  text-align: center;
+  color: var(--laranja-claro);
+  font-size: 40px;
+  padding-bottom: 60px;
+}
+
+.carrossel {
+  background-color: #000;
+  padding: 40px;
+}
+
+.carrossel:hover {
+  border: none;
+  transition: width 2s;
+  transition: .3s ease all;
+}
+
+/*FIM CARROSSEL*/
+

@@ -1,0 +1,104 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 60px 5px 60px;
+    background-color: var(--laranja-claro);
+    /*Menu fixo*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    /*não passa itens em cima do menu*/
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+    color: var(--amarelo);
+    font-family: 'Alex Brush', cursive;
+}
+
+.emote {
+    border-radius: 50%;
+    border: 2px solid var(--amarelo);
+}
+
+.menu-item {
+    font-size: 16px;
+    color: var(--background);
+    margin-right: 20px;
+}
+
+.menu-item:hover {
+    color: var(--amarelo);
+}
+
+/*---------------------*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--laranja-claro);
+    color: var(--background);
+    padding: 50px;
+    font-size: 18px;
+}
+
+footer a {
+    color: var(--amarelo);
+}
+
+footer a:hover {
+    color: var(--background);
+}
+
+footer .credito {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer .sociais {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*EFEITO CORAÇÃO*/
+footer .credito i:hover {
+    color: var(--vermelho);
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -webkit-filter: brightness(100%);
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        -webkit-filter: brightness(200%);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+
+    100% {
+        transform: scale(1.1);
+        filter: brightness(200%);
+    }
+}
+
+/*FIM DO EFEITO CORAÇÃO*/

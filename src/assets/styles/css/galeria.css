@@ -1,0 +1,292 @@
+.body-galeria {
+  background-color: #000;
+}
+
+/*Copiei css do menu, para tirar o z-index e a visualização da imagem aberta ficar em cima do nav*/
+.cabecalho-galeria {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 60px 5px 60px;
+  background-color: var(--laranja-claro);
+  /*Menu fixo*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*Menu com tipos dos desenhos*/
+.nav {
+  color: var(--background);
+  font-family: 'Poppins', sans-serif;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 290px 30px 0px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.nav ul li {
+  color: var(--background);
+  font-size: 18px;
+  height: 45px;
+  width: 160px;
+  border: 2px solid var(--background);
+  border-radius: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul li:hover {
+  background-color: var(--laranja-claro);
+  color: #000;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.nav ul li:active {
+  background-color: var(--laranja-claro-fundo);
+  color: var(--vermelho);
+}
+
+.ul-galeria {
+  padding: 5px 60px 5px 60px;
+}
+
+.galeria-titulo {
+  padding-top: 120px;
+  font-family: "Poppins", sans-serif;
+  color: var(--amarelo);
+  text-align: center;
+  font-size: 3em;
+}
+
+.avisos {
+  margin: 5em 25em 0em 25em;
+  text-align: center;
+  border: 2px solid var(--background);
+  padding: 50px 30px;
+}
+
+.avisos h3 {
+  color: var(--laranja-claro);
+}
+
+.avisos p {
+  color: var(--background);
+  font-size: 18px;
+}
+
+.avisos ol {
+    color: var(--laranja-claro);
+    text-align: justify;
+    padding: 5px 100px 5px 40px;
+  }
+
+.tipos-desenho {
+  color: var(--background);
+  font-size: 2em;
+  margin: 200px 0px 0px 400px;
+}
+
+
+hr {
+  width: 400px;
+  margin-left: 420px;
+}
+
+.galeria p {
+  text-align: left;
+  padding: 30px 420px 0px 420px;
+  font-size: 25px;
+  color: var(--background);
+}
+
+.galeria h6 {
+  color: var(--background);
+  padding: 30px 420px 0px 420px;
+  font-size: 18px;
+  text-align: justify;
+  font-style: normal;
+}
+
+.galeria .aviso-emotes {
+  color: var(--background);
+  text-align: center;
+  padding: 30px 420px 0px 420px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.galeria .detalhes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 420px 40px 420px;
+}
+
+.detalhes h4 {
+  color: var(--laranja-claro);
+  text-align: center;
+}
+
+.galeria .div-emote {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.preco-emote p {
+  text-align: center;
+  padding: 30px 0px 0px 480px;
+  font-size: 20px;
+}
+
+.preco-chibi p {
+
+  text-align: center;
+  padding: 45px 450px 0px 0px;
+  font-size: 20px;
+}
+
+
+.preco-emote h2,
+.preco-chibi h2 {
+  background-color: var(--laranja-claro);
+  padding: 15px;
+  text-align: center;
+  width: 170px;
+}
+
+.preco-emote h2 {
+  margin-left: 550px;
+}
+
+.preco-chibi h2 {
+  margin-left: 80px;
+}
+
+#produtos i {
+  color: var(--background);
+}
+
+
+/* CSS das imagens abertas*/
+ul {
+  width: 880px;
+  list-style: none;
+  display: flex;
+  margin: 70px auto;
+}
+
+.min {
+  width: 200px;
+  padding: 10px;
+  display: block;
+}
+
+.min:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+.lbox {
+  display: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.lbox:target {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(10, 10, 10, 0.7);
+  position: fixed;
+  display: block;
+}
+
+.box_img {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.btn {
+  color: #fff;
+  font-family: 'Arial';
+  text-decoration: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#prev {
+  left: 5%;
+  top: 45%;
+}
+
+#next {
+  right: 5%;
+  top: 45%;
+}
+
+#close {
+  right: 2%;
+  top: 2%;
+}
+
+.box_img img {
+  opacity: 0;
+}
+
+.lbox:target .box_img img {
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 10px;
+  opacity: 1;
+  transition: opacity .4s linear;
+}
+
+/*FIM CSS IMAGENS ABERTAS*/
+
+
+/* BOTÃO JS VOLTAR AO TOPO */
+#voltar-ao-topo {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: var(--laranja-claro-fundo);
+  color: var(--vermelho);
+  border: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#voltar-ao-topo:hover {
+  background-color: var(--laranja-claro);
+  color: var(--background);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.medidas {
+  display: flex;
+  justify-content: center;
+}

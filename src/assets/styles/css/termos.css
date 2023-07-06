@@ -1,0 +1,215 @@
+.termos {
+    max-width: 70vh;
+    display: block;
+    margin: 70px auto;
+    padding-top: 10em;
+}
+
+.termos h3 {
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.termos a {
+    color: var(--laranja-claro);
+}
+
+.termos li {
+    text-align: justify;
+    color: #000;
+    padding-top: 40px;
+}
+
+.termos img {
+    width: 20%;
+    margin-left: 250px;
+    padding-top: 40px;
+}
+
+.p-termos {
+    color: #000;
+}
+
+.leia-mais {
+    background-color: var(--laranja-escuro);
+    color: var(--background);
+    max-width: 70vh;
+    display: block;
+    margin: 70px auto;
+    padding: 70px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.leia-mais h4 {
+    font-size: 30px;
+}
+
+.leia-mais p {
+    color: var(--background);
+    line-height: 40px;
+}
+
+.leia-mais a:hover {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: var(--background);
+}
+
+/* EFEITO ONDA */
+
+.custom-shape-divider-bottom-1659403427 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1659403427 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1659403427 .shape-fill {
+    fill: #222222;
+}
+
+/* FIM EFEITO ONDA*/
+
+
+
+
+.termos-tabela {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    font-size: 17px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: #222222;
+    color: var(--background);
+}
+
+.termos-tabela h2 {
+    padding-bottom: 15px;
+}
+
+.faco p,
+.nao-faco p {
+    line-height: 35px;
+}
+
+.faco span {
+    color: green;
+}
+
+.nao-faco span {
+    color: var(--vermelho);
+}
+
+/*BOTÃO PARA GALERIA*/
+
+.btn-div {
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.btn-termos {
+    width: 400px;
+    height: 60px;
+    font-size: 17px;
+    color: var(--background);
+    border-radius: 5px;
+    padding: 10px 25px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    align-items: center;
+}
+
+.btn-14 {
+    background: rgb(255, 151, 0);
+    border: none;
+    z-index: 1;
+}
+
+.btn-14:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #092fd6;
+    background-image: linear-gradient(315deg, #092fd6 0%, #0984d6 74%);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+}
+
+.btn-14:hover {
+    color: #fff;
+}
+
+.btn-14:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.btn-14:active {
+    top: 2px;
+}
+
+/* FIM BOTÃO TERMOS */
+
+
+.termos-finais {
+    max-width: 70vh;
+    text-align: center;
+    margin: 40px auto;
+    padding: 100px 0 100px 0;
+}
+
+.termos-finais h3 {
+    color: var(--laranja-claro);
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.termos-finais p {
+    padding-bottom: 30px;
+}
+
+.termos-finais img {
+    padding: 10px 5px 40px 5px;
+}
+
+.termos-finais a {
+    color: var(--laranja-claro);
+}
+
+.agradecimento {
+    font-family: 'Alex Brush', cursive;
+    color: var(--laranja-claro);
+    font-size: 6em;
+    padding-top: 50px;
+}

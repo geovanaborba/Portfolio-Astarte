@@ -1,0 +1,134 @@
+.pagamento {
+  padding: 150px 0px 100px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagamento h1 {
+  padding: 50px 0px 60px 0px;
+}
+
+.pagamento ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  list-style-image: url('../../img/star-solid.svg');
+  line-height: 3rem;
+  font-size: 18px;
+  width: 880px;
+}
+
+.pag-logos {
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/*---- EFEITO DE ONDA NO PAG-LOGOS ----*/
+
+.custom-shape-divider-bottom-1659390890 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1659390890 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+}
+
+.custom-shape-divider-bottom-1659390890 .shape-fill {
+  fill: rgb(34, 34, 34);
+}
+
+/*---- FIM DO EFEITO ONDA ----*/
+
+
+
+.importante {
+  display: flex;
+  justify-content: space-around;
+}
+
+.importante-esquerda {
+  background-color: var(--laranja-escuro);
+  padding: 190px 0px;
+}
+
+.importante-direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0em 8em 10em 8em;
+
+}
+
+.importante-direita h2 {
+  color: var(--laranja-escuro);
+  text-align: center;
+  font-size: 40px;
+  padding: 4em 0em 1.4em 0em;
+}
+
+.importante-direita p {
+  text-align: justify;
+  line-height: 50px;
+}
+
+.pag-tarifas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px 0px 30px 0px;
+}
+
+.titulo-tarifa {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+.tarifa-paypal,
+.tarifa-pagseguro {
+  background-color: var(--fundo);
+  border-radius: 50px;
+  padding: 40px;
+  margin: 20px;
+}
+
+.tarifa-paypal p,
+.tarifa-pagseguro p {
+  line-height: 25px;
+  text-align: center;
+  color: var(--laranja-escuro);
+}
+
+
+.pag-detalhes {
+  padding: 140px 200px 80px 200px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 100px;
+  background-color: #222222;
+  color: var(--background);
+}
+
+.pag-detalhes p {
+  max-width: 400px;
+}
+
+.coluna-detalhes img {
+  width: 150px;
+  padding-top: 30px;
+}
