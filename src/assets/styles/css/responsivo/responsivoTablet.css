@@ -1,0 +1,33 @@
+@media screen and (min-width:768px) and (max-width:1219px) {
+
+    header p, 
+    header img {
+        display: none;
+    }
+
+    .cabecalho {
+        text-align: center;
+        padding: 20px 30px;
+    }
+
+    .avatar {
+        width: 300px;
+    }
+
+    .descricao-itens {
+        margin: 0;
+    }
+
+    .divisoria {
+        flex-wrap: wrap;
+    }
+
+    .servicos {
+        padding-bottom: 30px;
+      }
+
+    .posts-img {
+        flex-wrap: wrap;
+        margin: 0 1em 0 1em;
+    }
+}

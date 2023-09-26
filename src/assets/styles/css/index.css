@@ -3,28 +3,24 @@
 }
 
 .descricao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
   margin-top: 72px;
   padding-top: 50px;
   border-top: 5px solid var(--amarelo);
   border-bottom: 5px solid var(--amarelo);
 }
 
-.descricao-principal {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.descricao-principal-itens {
-  margin: 30px 30px 30px 380px;
+.descricao-itens {
+  margin: 30px 30px 30px 250px;
   text-align: center;
   color: var(--cinza);
-  max-width: 700px;
-  align-items: center;
+  max-width: 600px;
 }
 
-.descricao-principal-itens h1 {
+.descricao-itens h1 {
   color: var(--laranja-claro);
   font-size: 50px;
   font-family: 'Alex Brush', cursive;
@@ -141,6 +137,63 @@ button {
 
 /*FIM BOTÃO ME ADICIONE*/
 
+.divisoria {
+  background-color: var(--laranja-claro);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+
+p.gray {
+  font-size: 16px;
+  color: #575455;
+}
+
+
+h2.black {
+  padding-top: 40px;
+  font-size: 35px;
+  line-height: 24px;
+  color: #000;
+}
+
+h1.white {
+  font-size: 45px;
+  color: #fff;
+}
+
+.servicos {
+  padding-bottom: 80px;
+}
+
+.servicos img {
+  border-radius: 30%;
+}
+
+.servicos h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #070F18;
+}
+
+.caixa {
+  margin: 20px auto;
+  width: 350px;
+  height: 350px;
+  display: block;
+  padding: 80px 0px;
+  background-color: var(--laranja-claro-fundo);
+  border-radius: 20%;
+}
+
+.caixa:hover {
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  cursor: pointer;
+}
 
 /* POSTS INSTAGRAM*/
 
@@ -304,68 +357,6 @@ ol {
 }
 
 /*FIM MENU DE PERGUNTAS*/
-
-
-
-.divisoria {
-  background-color: var(--laranja-claro);
-  text-align: center;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  padding: 30px 0;
-}
-
-p.gray {
-  font-size: 16px;
-  color: #575455;
-}
-
-
-h2.black {
-  padding-top: 40px;
-  font-size: 35px;
-  line-height: 24px;
-  color: #000;
-}
-
-h1.white {
-  font-size: 45px;
-  color: #fff;
-}
-
-.servicos {
-  padding-bottom: 80px;
-}
-
-.servicos img {
-  border-radius: 30%;
-}
-
-.servicos h3 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: #070F18;
-}
-
-.caixa {
-  margin: 20px auto;
-  width: 350px;
-  height: 350px;
-  display: block;
-  padding: 80px 0px;
-  background-color: var(--laranja-claro-fundo);
-  border-radius: 20%;
-}
-
-.caixa:hover {
-  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  cursor: pointer;
-}
-
 
 
 /* INÍCIO CARROSSEL*/
