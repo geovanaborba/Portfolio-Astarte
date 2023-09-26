@@ -12,4 +12,21 @@
     .posts-img {
         margin: 0 5em 0 5em;
     }
+
+    /* Página SOBRE */
+
+    .bloco-descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .detalhes-resumo {
+        margin-left: 180px;
+        gap: 80px;
+    }
+
+    .bloco-resumo img {
+        width: 75%;
+    }
 }

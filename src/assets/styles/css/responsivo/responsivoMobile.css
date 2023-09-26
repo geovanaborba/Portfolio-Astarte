@@ -114,6 +114,59 @@
         padding-top: 50px;
     }
 
+    /* Página SOBRE */ 
+
+    .descricao-sobre {
+        margin: 0px 20px;
+      }
+      
+      .titulo-sobre {
+        padding: 60px 0px;
+        text-align: center;
+      }
+      
+      .bloco-descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      
+      .descricao-processo {
+        width: 85vw;
+      }
+      
+      .descricao-imagem img {
+        width: 65vw;
+      }
+      
+      .sobre-detalhes {
+        padding: 80px 60px;
+      }
+
+      .sobre-detalhes p {
+        padding-bottom: 20px;
+      }
+      
+      .sobre-detalhes-img {
+        flex-wrap: wrap;
+      }
+      
+      .detalhes-resumo {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+      }
+
+      .bloco-resumo {
+        max-width: 75%;
+      }
+
+      .bloco-resumo img {
+        width: 100%;
+      }
+
 
     /* Início de formulário */
 

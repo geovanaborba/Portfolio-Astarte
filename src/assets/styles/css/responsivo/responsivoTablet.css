@@ -30,4 +30,60 @@
         flex-wrap: wrap;
         margin: 0 1em 0 1em;
     }
+
+    /* Página SOBRE */
+
+    .descricao-sobre {
+        margin: 0px 60px;
+      }
+      
+      .titulo-sobre {
+        padding: 200px 0px 60px 0;
+        text-align: center;
+      }
+      
+      .bloco-descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      
+      .descricao-processo {
+        width: 75vw;
+      }
+      
+      .descricao-imagem img {
+        width: 45vw;
+      }
+      
+ 
+      .sobre-detalhes {
+        padding: 150px 180px;
+      }
+      
+      .sobre-detalhes p {
+        padding-bottom: 20px;
+      }
+      
+      .sobre-detalhes-img {
+        flex-wrap: wrap;
+      }
+      
+
+      .detalhes-resumo {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+      }
+
+      .bloco-resumo {
+        max-width: 60%;
+      }
+
+      .bloco-resumo img {
+        width: 80%;
+      }
+      
 }
