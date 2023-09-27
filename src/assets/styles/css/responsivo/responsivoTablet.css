@@ -1,14 +1,17 @@
 @media screen and (min-width:768px) and (max-width:1219px) {
 
-  header p,
-  header img {
+  header p {
     display: none;
+  }
+
+  header img {
+    width: 50px;
   }
 
   .cabecalho {
     display: flex;
     flex-wrap: wrap;
-    padding: 25px 35px;
+    padding: 25px;
   }
 
   .avatar {
@@ -91,7 +94,7 @@
   /* Página GALERIA */
 
   .cabecalho-galeria {
-    padding: 25px 35px;
+    padding: 25px;
   }
 
   /*Menu com tipos dos desenhos*/
@@ -142,14 +145,11 @@
     padding: 40px 120px;
   }
 
-
-
   .galeria .div-emote {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
 
   .preco-emote h2,
   .preco-chibi h2 {
@@ -164,7 +164,6 @@
   .preco-chibi {
     margin-bottom: 30px;
   }
-
 
   .ul-galeria {
     padding: 5px 40px;
