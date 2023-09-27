@@ -6,8 +6,9 @@
   }
 
   .cabecalho {
-    text-align: center;
-    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 35px;
   }
 
   .avatar {
