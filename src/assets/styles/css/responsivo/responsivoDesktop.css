@@ -1,172 +1,172 @@
 @media screen and (min-width:1220px) and (max-width:1550px) {
 
-    .descricao-itens {
-        margin: 30px 0 30px 0;
-    }
+  .descricao-itens {
+    margin: 30px 0 30px 0;
+  }
 
-    .caixa {
-        width: 300px;
-        height: 330px;
-    }
+  .caixa {
+    width: 300px;
+    height: 330px;
+  }
 
-    .posts-img {
-        margin: 0 5em 0 5em;
-    }
+  .posts-img {
+    margin: 0 5em 0 5em;
+  }
 
-    /* Página SOBRE */
+  /* Página SOBRE */
 
-    .titulo-sobre {
-      text-align: center;
-    }
-    
-    .bloco-descricao {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
+  .titulo-sobre {
+    text-align: center;
+  }
 
-    .detalhes-resumo {
-        margin-left: 180px;
-        gap: 80px;
-    }
+  .bloco-descricao {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-    .bloco-resumo img {
-        width: 75%;
-    }
+  .detalhes-resumo {
+    margin-left: 180px;
+    gap: 80px;
+  }
 
-    /* Página GALERIA */
- 
-      .avisos {
-        margin: 5em 12em;
-      }
-      
-      .avisos ol {
-          padding: 5px 40px;
-        }
+  .bloco-resumo img {
+    width: 75%;
+  }
 
-/*Menu com tipos dos desenhos*/
-.nav {
+  /* Página GALERIA */
+
+  .avisos {
+    margin: 5em 12em;
+  }
+
+  .avisos ol {
+    padding: 5px 40px;
+  }
+
+  /*Menu com tipos dos desenhos*/
+  .nav {
     gap: 20px;
     padding: 0px 300px 30px 0px;
   }
 
-      .tipos-desenho {
-        margin: 200px 0px 0px 300px;
-      }
-      
-      hr {
-        margin-left: 320px;
-      }
-      
-      .galeria p {
-        padding: 30px 320px 0px 320px;
-      }
-      
-      .galeria h6 {
-        padding: 30px 320px 0px 320px;
-      }
-      
-      .galeria .aviso-emotes {
-        padding: 30px 320px 0px 320px;
-      }
-      
-      .galeria .detalhes {
-        padding: 30px 320px 30px 320px;
-      }
-      
+  .tipos-desenho {
+    margin: 200px 0px 0px 300px;
+  }
 
-      .preco-emote p {
-        padding: 30px 0px 0px 380px;
-      }
-      
-      .preco-chibi p {
-        padding: 45px 350px 0px 0px;
-      }
-      
-      
-      .preco-emote h2 {
-        margin-left: 415px;
-      }
-      
-      .preco-chibi p {
-        margin-left: 60px;
-      }
+  hr {
+    margin-left: 320px;
+  }
 
-      .box_img {
-        max-width: 700px;
-        margin: 0 auto;
-      }
+  .galeria p {
+    padding: 30px 320px 0px 320px;
+  }
 
-      .lbox:target .box_img img {
-        width: 100%;
-        margin-left: 40px;
-        margin-top: 10px;
-      }
+  .galeria h6 {
+    padding: 30px 320px 0px 320px;
+  }
 
-      /* Página PAGAMENTO */
-      
-      .pagamento {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        text-align: justify;
-        padding: 100px 0px;
-        margin: 0 50px;
-        gap: 100px;
-      }
+  .galeria .aviso-emotes {
+    padding: 30px 320px 0px 320px;
+  }
 
-      .pagamento ul {
-        width: 600px;
-      }
+  .galeria .detalhes {
+    padding: 30px 320px 30px 320px;
+  }
 
-      .pagamento-direita {
-        display: flex;
-        justify-content: right;
-      }
 
-      .pagamento-direita img {
-        width: 95%;
-      }
+  .preco-emote p {
+    padding: 30px 0px 0px 380px;
+  }
 
-      .pag-logos img {
-        width: 226px;
-        height: 226px;
-      }
-      
+  .preco-chibi p {
+    padding: 45px 350px 0px 0px;
+  }
 
-  
-      .importante-esquerda {
-        display: flex;
-        align-items: center;
-        padding: 0;
-        width: 50vw;
-      }
 
-      .importante-esquerda img {
-        width: 600px;
-      }
-      
-      .importante-direita {
-        padding: 1em 2em 3em 2em;
-      
-      }
-      
-      .importante-direita h2 {
-        padding: 1em 0em 1.4em 0em;
-      }
+  .preco-emote h2 {
+    margin-left: 415px;
+  }
 
-      .pag-detalhes {
-        padding: 140px 170px 80px 170px;
-      }
-      
-      /* Página PRAZOS */
+  .preco-chibi p {
+    margin-left: 60px;
+  }
 
-      .prazo-aviso {
-        padding: 200px 15% 150px 15%;
-      }
+  .box_img {
+    max-width: 700px;
+    margin: 0 auto;
+  }
 
-      .prazo-aviso p {
-        font-size: 18px;
-      }
+  .lbox:target .box_img img {
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+  /* Página PAGAMENTO */
+
+  .pagamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    padding: 100px 0px;
+    margin: 0 50px;
+    gap: 100px;
+  }
+
+  .pagamento ul {
+    width: 600px;
+  }
+
+  .pagamento-direita {
+    display: flex;
+    justify-content: right;
+  }
+
+  .pagamento-direita img {
+    width: 95%;
+  }
+
+  .pag-logos img {
+    width: 226px;
+    height: 226px;
+  }
+
+
+
+  .importante-esquerda {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 50vw;
+  }
+
+  .importante-esquerda img {
+    width: 600px;
+  }
+
+  .importante-direita {
+    padding: 1em 2em 3em 2em;
+
+  }
+
+  .importante-direita h2 {
+    padding: 1em 0em 1.4em 0em;
+  }
+
+  .pag-detalhes {
+    padding: 140px 170px 80px 170px;
+  }
+
+  /* Página PRAZOS */
+
+  .prazo-aviso {
+    padding: 200px 15% 150px 15%;
+  }
+
+  .prazo-aviso p {
+    font-size: 18px;
+  }
 
 }
