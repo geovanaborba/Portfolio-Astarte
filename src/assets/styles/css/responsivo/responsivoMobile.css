@@ -8,8 +8,8 @@
     }
 
     .cabecalho {
-        text-align: left;
-        padding: 30px 0;
+        justify-content: flex-start;
+        padding: 30px;
         position: relative;
         z-index: 0;
     }
@@ -18,6 +18,7 @@
         display: flex;
         flex-direction: column;
         font-size: 18px;
+        padding: 5px;
     }
 
     .avatar {
@@ -167,6 +168,167 @@
         width: 100%;
       }
 
+
+      /* Página GALERIA */
+
+      .cabecalho-galeria p,
+      .cabeçalho-galeria img {
+          display: none;
+      }
+
+      .cabecalho-galeria {
+        display: flex;
+        flex-direction: row;
+          justify-content: flex-start;
+          padding: 30px;
+          position: relative;
+      }
+  
+      .cabecalho-galeria .menu-item {
+        padding: 5px;
+          font-size: 18px;
+      }
+
+      .galeria-titulo {
+        font-size: 35px;
+        padding-top: 80px;
+      }
+
+  /*Menu com tipos dos desenhos*/
+  .nav {
+    gap: 10px;
+    padding: 0;
+    margin: 35px 0 25px 0;
+  }
+
+  .nav .ul-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav ul li {
+    height: 35px;
+    width: 140px;
+    font-size: 14px;
+  }
+
+  .medidas img {
+    max-width: 360px;
+  }
+
+  .avisos {
+    margin: 1em 1em 0em 1em;
+  }
+
+  .avisos ol {
+    padding: 5px 40px;
+  }
+
+  .tipos-desenho {
+    font-size: 18px;
+    margin: 40px 0px 0px 20px;
+  }
+
+  hr {
+    width: 150px;
+    margin-left: 30px;
+  }
+
+  .galeria p,
+  .galeria h6,
+  .galeria .aviso-emotes {
+    padding: 20px 20px 10px 20px;
+    font-size: 14px;
+  }
+
+  .galeria .detalhes {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .galeria .div-emote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .preco-emote h2,
+  .preco-chibi h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .preco-emote,
+  .preco-chibi {
+    margin-bottom: 30px;
+  }
+
+
+  .ul-galeria {
+    padding: 5px 20px;
+  }
+
+  /* CSS das imagens abertas*/
+  ul {
+    width: 360px;
+    list-style: none;
+    display: flex;
+    margin: 0px auto;
+  }
+
+  .min {
+    width: 80px;
+    padding: 7px;
+    display: block;
+  }
+
+  .box_img {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  #prev {
+    left: 1%;
+    top: 25%;
+  }
+
+  #next {
+    right: 1%;
+    top: 25%;
+  }
+
+  #close {
+    right: 0.5%;
+    top: 1%;
+  }
+
+  .box_img img {
+    opacity: 0;
+  }
+
+  .lbox:target .box_img img {
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+  /*FIM CSS IMAGENS ABERTAS*/
+
+  #voltar-ao-topo {
+    padding: 12px;
+  }
+  
 
     /* Início de formulário */
 

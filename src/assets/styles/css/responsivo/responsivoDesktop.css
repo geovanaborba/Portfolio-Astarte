@@ -29,4 +29,74 @@
     .bloco-resumo img {
         width: 75%;
     }
+
+    /* Página GALERIA */
+ 
+      .avisos {
+        margin: 5em 12em;
+      }
+      
+      .avisos ol {
+          padding: 5px 40px;
+        }
+
+/*Menu com tipos dos desenhos*/
+.nav {
+    gap: 20px;
+    padding: 0px 300px 30px 0px;
+  }
+
+      .tipos-desenho {
+        margin: 200px 0px 0px 300px;
+      }
+      
+      hr {
+        margin-left: 320px;
+      }
+      
+      .galeria p {
+        padding: 30px 320px 0px 320px;
+      }
+      
+      .galeria h6 {
+        padding: 30px 320px 0px 320px;
+      }
+      
+      .galeria .aviso-emotes {
+        padding: 30px 320px 0px 320px;
+      }
+      
+      .galeria .detalhes {
+        padding: 30px 320px 30px 320px;
+      }
+      
+
+      .preco-emote p {
+        padding: 30px 0px 0px 380px;
+      }
+      
+      .preco-chibi p {
+        padding: 45px 350px 0px 0px;
+      }
+      
+      
+      .preco-emote h2 {
+        margin-left: 415px;
+      }
+      
+      .preco-chibi p {
+        margin-left: 60px;
+      }
+
+      .box_img {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      .lbox:target .box_img img {
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 10px;
+      }
+      
 }
