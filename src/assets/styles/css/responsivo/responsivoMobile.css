@@ -358,6 +358,70 @@
   }
 
 
+  /* Página PAGAMENTO */
+
+  .pagamento {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+    padding: 80px 0px;
+    margin: 0 30px;
+    gap: 50px;
+  }
+
+  .pagamento ul {
+    width: 320px;
+  }
+
+  .pagamento-direita {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pagamento-direita img {
+    width: 60%;
+  }
+
+  .pag-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pag-logos img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .importante-esquerda {
+    display: none;
+  }
+
+  .importante-direita {
+    padding: 15px 20px 30px 20px;
+  }
+
+    .pag-tarifas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .tarifa-paypal,
+  .tarifa-pagseguro {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .pag-detalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+    padding: 20px;
+  }
+
+
   /* Início de formulário */
 
   form {

@@ -244,4 +244,68 @@
     justify-content: center;
   }
 
+
+  /* Página PAGAMENTO */
+
+  .pagamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    padding: 100px 0px;
+    margin: 0 50px;
+    gap: 50px;
+  }
+
+  .pagamento ul {
+    width: 400px;
+  }
+
+  .pagamento-direita {
+    display: flex;
+    justify-content: right;
+  }
+
+  .pagamento-direita img {
+    width: 100%;
+  }
+
+  .pag-logos img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .importante-esquerda {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .importante-esquerda img {
+    min-width: 400px;
+  }
+
+  .importante-direita {
+    width: 50vw;
+    padding: 1em 2em 3em 2em;
+  }
+
+  .pag-tarifas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .tarifa-paypal,
+  .tarifa-pagseguro {
+    padding: 30px;
+    margin: 15px;
+  }
+
+  .pag-detalhes {
+    gap: 75px;
+    padding: 120px 150px 80px 150px;
+  }
+
 }

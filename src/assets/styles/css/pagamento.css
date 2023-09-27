@@ -20,6 +20,10 @@
   width: 880px;
 }
 
+.pagamento img {
+  width: 85%;
+}
+
 .pag-logos {
   background-color: rgb(34, 34, 34);
   display: flex;

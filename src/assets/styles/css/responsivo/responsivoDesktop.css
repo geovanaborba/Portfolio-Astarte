@@ -1,4 +1,4 @@
-@media screen and (min-width:1220px) and (max-width:1420px) {
+@media screen and (min-width:1220px) and (max-width:1550px) {
 
     .descricao-itens {
         margin: 30px 0 30px 0;
@@ -15,6 +15,10 @@
 
     /* Página SOBRE */
 
+    .titulo-sobre {
+      text-align: center;
+    }
+    
     .bloco-descricao {
         display: flex;
         flex-direction: column-reverse;
@@ -98,5 +102,62 @@
         margin-left: 40px;
         margin-top: 10px;
       }
+
+      /* Página PAGAMENTO */
       
+      .pagamento {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: justify;
+        padding: 100px 0px;
+        margin: 0 50px;
+        gap: 100px;
+      }
+
+      .pagamento ul {
+        width: 600px;
+      }
+
+      .pagamento-direita {
+        display: flex;
+        justify-content: right;
+      }
+
+      .pagamento-direita img {
+        width: 95%;
+      }
+
+      .pag-logos img {
+        width: 226px;
+        height: 226px;
+      }
+      
+
+  
+      .importante-esquerda {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        width: 50vw;
+      }
+
+      .importante-esquerda img {
+        width: 600px;
+      }
+      
+      .importante-direita {
+        padding: 1em 2em 3em 2em;
+      
+      }
+      
+      .importante-direita h2 {
+        padding: 1em 0em 1.4em 0em;
+      }
+
+      .pag-detalhes {
+        padding: 140px 170px 80px 170px;
+      }
+      
+
 }
