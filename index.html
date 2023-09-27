@@ -28,39 +28,42 @@
                 alt="emote segurando coração">
             <p>Astarte</p>
         </a>
-        <nav>
-            <a href="./index.html" class="menu-item">Início</a>
-            <a href="./src/assets/pages/sobre.html" class="menu-item">Sobre</a>
-            <a href="./src/assets/pages/galeria.html" class="menu-item">Galeria & valores</a>
-            <a href="./src/assets/pages/pagamento.html" class="menu-item">Pagamento</a>
-            <a href="./src/assets/pages/prazos.html" class="menu-item">Prazos</a>
-            <a href="./src/assets/pages/termos.html" class="menu-item">Termos</a>
-            <a href="./src/assets/pages/contato.html" class="menu-item">Contato</a>
+        <nav id="nav">
+            <button id="btn-mobile">Menu <i class="fa-solid fa-bars"></i></button>
+            <div id="menu">
+                <a href="./index.html" class="menu-item">Início</a>
+                <a href="./src/assets/pages/sobre.html" class="menu-item">Sobre</a>
+                <a href="./src/assets/pages/galeria.html" class="menu-item">Galeria & valores</a>
+                <a href="./src/assets/pages/pagamento.html" class="menu-item">Pagamento</a>
+                <a href="./src/assets/pages/prazos.html" class="menu-item">Prazos</a>
+                <a href="./src/assets/pages/termos.html" class="menu-item">Termos</a>
+                <a href="./src/assets/pages/contato.html" class="menu-item">Contato</a>
+            </div>
         </nav>
     </header>
 
-        <section class="descricao">
-            <div class="descricao-itens">
-                <h1>Olá! Eu sou a Astarte!</h1>
+    <section class="descricao">
+        <div class="descricao-itens">
+            <h1>Olá! Eu sou a Astarte!</h1>
+            <br>
+            <h3>Você deve me conhecer como Astarte, ou simplesmente como Giih, devido a minha assinatura antiga nos
+                desenhos.
                 <br>
-                <h3>Você deve me conhecer como Astarte, ou simplesmente como Giih, devido a minha assinatura antiga nos
-                    desenhos.
-                    <br>
-                    Fico feliz que você se interesse por uma arte minha.
-                    <br>
-                    Aqui você pode ver meu portfólio e ler todas as informações sobre encomendar comigo.
-                    <br>
-                    <br>
-                    Entre em contato para um orçamento.
-                </h3>
-                <a href="https://linktr.ee/astarte.drawings" target="_blank">
-                    <button class="custom-btn btn-7">
-                        <span>Me adicione</span>
-                    </button>
-                </a>
-            </div>
-            <img class="avatar" src="./src/assets/img/final oculos novo transparente.png">
-        </section>
+                Fico feliz que você se interesse por uma arte minha.
+                <br>
+                Aqui você pode ver meu portfólio e ler todas as informações sobre encomendar comigo.
+                <br>
+                <br>
+                Entre em contato para um orçamento.
+            </h3>
+            <a href="https://linktr.ee/astarte.drawings" target="_blank">
+                <button class="custom-btn btn-7">
+                    <span>Me adicione</span>
+                </button>
+            </a>
+        </div>
+        <img class="avatar" src="./src/assets/img/final oculos novo transparente.png">
+    </section>
 
 
     <div class="divisoria">
@@ -635,6 +638,8 @@
     <script src="./src/assets/js/owl/owl.carousel.min.js"></script>
     <!--js carrossel-->
     <script src="./src/assets/js/owl/setup.js"></script>
+
+    <script src="./src/assets/js/responsivoMobile.js"></script>
 </body>
 
 </html>

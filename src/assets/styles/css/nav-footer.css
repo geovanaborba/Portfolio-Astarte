@@ -13,6 +13,10 @@
     /*não passa itens em cima do menu*/
 }
 
+#btn-mobile {
+    display: none;
+}
+
 .inicio {
     display: flex;
     flex-direction: row;

@@ -90,6 +90,9 @@
 
   /* Página GALERIA */
 
+  .cabecalho-galeria {
+    padding: 25px 35px;
+  }
 
   /*Menu com tipos dos desenhos*/
   .nav {
