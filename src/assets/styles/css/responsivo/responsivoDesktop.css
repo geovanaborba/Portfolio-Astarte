@@ -159,5 +159,14 @@
         padding: 140px 170px 80px 170px;
       }
       
+      /* Página PRAZOS */
+
+      .prazo-aviso {
+        padding: 200px 15% 150px 15%;
+      }
+
+      .prazo-aviso p {
+        font-size: 18px;
+      }
 
 }

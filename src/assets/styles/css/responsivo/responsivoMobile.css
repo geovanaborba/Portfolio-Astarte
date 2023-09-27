@@ -421,6 +421,20 @@
     padding: 20px;
   }
 
+  /* Página PRAZOS */
+
+  .prazo-aviso {
+    padding: 80px 10% 150px 10%;
+  }
+
+  .prazo-aviso p {
+    font-size: 18px;
+  }
+  
+  .prazo-aviso img {
+    padding-top: 40px;
+    min-width: 310px;
+  }
 
   /* Início de formulário */
 

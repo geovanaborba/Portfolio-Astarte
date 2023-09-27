@@ -1,9 +1,10 @@
 .prazo-aviso {
-  padding: 200px 25% 150px 25%;
+  padding: 200px 20% 150px 20%;
   text-align: center;
 }
 
 .prazo-aviso p {
+  font-size: 20px;
   padding-top: 40px;
 }
 
