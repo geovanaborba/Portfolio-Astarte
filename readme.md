@@ -9,7 +9,7 @@
 
 <br>
 
-### ➜ Em Julho de 2023 retomei ele, corrigindo os erros que percebi ter feito como:
+### ➜ Em Julho/Agosto de 2023 retomei ele, corrigindo os erros que percebi ter feito como:
 
 <br>
 
@@ -21,11 +21,13 @@
 
 *- correção no :hover das abas expansíveis na página inicial.*
 
-*- adicionado responsividade. (em andamento)* 
+### ➜ Setembro de 2023: 
+
+*- adicionado responsividade.* 
+
+*- Imagens otimizadas para pesar menos.* 
 
 <br>
-<br>
-
 
 ### Cursos gratuitos realizados:
 
@@ -120,7 +122,7 @@ Vez ou outra precisei fazer alguma consulta para algo mais específico, como o e
 
 [Formspree](https://formspree.io/)
 
-*Utilizei o site Formspree para envio dos formulários da aba Contato, diretamente para meu e-mail. Basta definir o formulário **action** no html para o endpoint. Nenhum código de servidor é necessário.*
+*Utilizei a API Formspree para envio dos formulários da aba Contato, diretamente para meu e-mail. Basta definir o formulário **action** no html para o endpoint. Nenhum código de servidor é necessário.*
 
 <br>
 
@@ -136,6 +138,11 @@ Vez ou outra precisei fazer alguma consulta para algo mais específico, como o e
 - [unDraw](undraw.co)
 - Demais ilustrações, foram feitas por mim mesma - [@astarte.drawings](https://linktr.ee/astarte.drawings)
 
+<br>
+
+# Compressão de imagens:
+
+- [TinyPNG](https://tinypng.com/)
 
 
 
