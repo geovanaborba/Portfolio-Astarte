@@ -1,19 +1,5 @@
 @media screen and (min-width:768px) and (max-width:1219px) {
 
-  header p {
-    display: none;
-  }
-
-  header img {
-    width: 50px;
-  }
-
-  .cabecalho {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 25px;
-  }
-
   .avatar {
     width: 300px;
   }
@@ -316,6 +302,27 @@
 
   .prazo-aviso p {
     font-size: 18px;
+  }
+
+  /* Página CONTATO */
+
+  .esquerda-col {
+    display: none;
+  }
+
+  .direita-col {
+    width: 100vw;
+    padding: 9rem 0 0 8.5rem;
+  }
+
+  .contato-descricao {
+    width: 70vw;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 50vw;
   }
 
 }

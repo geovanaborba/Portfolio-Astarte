@@ -133,8 +133,6 @@
     height: 226px;
   }
 
-
-
   .importante-esquerda {
     display: flex;
     align-items: center;
@@ -167,6 +165,28 @@
 
   .prazo-aviso p {
     font-size: 18px;
+  }
+
+  /* Página CONTATO */
+
+  .esquerda-col {
+
+    background-size: 45vw 100vh;
+    background-repeat: no-repeat;
+  }
+
+  .direita-col {
+    padding: 7rem 0 15rem 3rem;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 30vw;
+  }
+
+  fieldset .campo {
+    margin-right: 0;
   }
 
 }

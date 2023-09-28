@@ -2,24 +2,6 @@
 
   /* INÍCIO */
 
-  header p,
-  header img {
-    display: none;
-  }
-
-  .cabecalho {
-    justify-content: flex-start;
-    padding: 15px;
-    position: relative;
-    z-index: 0;
-  }
-
-  .menu-item {
-    display: block;
-    font-size: 18px;
-    padding: 5px 0 5px 15px;
-  }
-
   .avatar {
     width: 300px;
     padding-top: 40px;
@@ -103,17 +85,6 @@
     text-align: center;
   }
 
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer .sociais,
-  footer .ajuda {
-    text-align: center;
-    padding-top: 50px;
-  }
-
   /* Página SOBRE */
 
   .descricao-sobre {
@@ -175,47 +146,6 @@
 
 
   /* Página GALERIA */
-
-  #btn-mobile {
-    display: block;
-    font-size: 25px;
-    background-color: var(--laranja-claro);
-    border: none;
-    gap: 10px;
-    color: #fff;
-  }
-
-  #menu {
-    display: none;
-  }
-
-  #nav.active #menu {
-    display: block;
-
-  }
-
-  .cabecalho-galeria p,
-  .cabeçalho-galeria img {
-    display: none;
-  }
-
-
-  .cabecalho-galeria {
-    justify-content: flex-start;
-    padding: 35px;
-    position: relative;
-    z-index: 0;
-  }
-
-  .cabecalho-galeria #menu {
-    padding-top: 20px;
-  }
-
-  .cabecalho-galeria .menu-item {
-    display: block;
-    font-size: 18px;
-    padding: 5px 0;
-  }
 
   .galeria-titulo {
     font-size: 35px;
@@ -401,7 +331,7 @@
     padding: 15px 20px 30px 20px;
   }
 
-    .pag-tarifas {
+  .pag-tarifas {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -430,7 +360,7 @@
   .prazo-aviso p {
     font-size: 18px;
   }
-  
+
   .prazo-aviso img {
     padding-top: 40px;
     min-width: 310px;
@@ -444,117 +374,67 @@
     margin: 5px 25px;
     padding-top: 80px;
     text-align: center;
-}
+  }
 
 
-.termos img {
+  .termos img {
     width: 50%;
     margin: 0;
     padding-top: 40px;
-}
+  }
 
-.termos-tabela {
+  .termos-tabela {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.btn-termos {
+  .btn-termos {
     width: 280px;
     height: 70px;
-}
-
-
-  /* Início de formulário */
-
-  form {
-    font-family: 'Poppins', sans-serif;
-    width: 31.25rem;
-    position: relative;
-    margin-top: 1rem;
-    padding: 1rem 0;
   }
 
-  fieldset {
-    border: 0;
+  /* Página CONTATO */
+
+  .esquerda-col {
+    display: none;
   }
 
+  .direita-col {
+    width: 100vw;
+    padding: 3rem 0 0 1rem;
+  }
+
+  .contato-descricao {
+    width: 85vw;
+  }
+
+  form,
   input,
   select,
-  textarea {
-    border-radius: 2px;
-    width: 20vw;
-    display: block;
-  }
-
+  textarea,
   label {
-    padding-top: 1em;
-    text-transform: uppercase;
-    font-size: 1rem;
+    width: 90vw;
   }
 
-  .campo {
-    padding-bottom: 2px;
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 12px;
   }
 
-  .campo label {
-    margin-bottom: 0.2em;
-    display: block;
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 12px;
   }
 
-  fieldset .campo {
-    float: left;
-    margin-right: 1em;
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 12px;
   }
 
-  .campo input[type="text"],
-  .campo select,
-  .campo textarea {
-    background: #d8d8d8;
-    border: none;
-    border-bottom: 1px solid #000;
-    padding: 0.5rem 0;
-    margin-bottom: 0.5rem;
-    outline: none;
+  :-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 12px;
   }
 
-  textarea {
-    resize: none;
-    height: 15em;
-    width: 29em;
-  }
-
-  .campo select option {
-    padding-right: 1em;
-
-  }
-
-  .campo input:focus,
-  .campo select:focus,
-  .campo textarea:focus {
-    background-color: #e9e9e9;
-  }
-
-  .btn-enviar {
-    display: block;
-    border-radius: 2px;
-    font-size: 1.2em;
-    background: rgb(32, 24, 14);
-    border: 0;
-    margin-bottom: 1em;
-    color: var(--background);
-    padding: 0.3em 1.7em;
-    margin-left: 65px;
-    margin-top: 30px;
-
-    transform: translate(-50%, -50%);
-  }
-
-  .btn-enviar:hover {
-    background: var(--laranja-claro);
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    text-shadow: none;
-  }
-
-  /*Fim do formulário */
 }
